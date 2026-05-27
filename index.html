@@ -1,199 +1,211 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인문 철학 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>상암 코인노래방 가이드 - 눈탱이 전혀 없는 가성비 정찰제 꿀팁 솔직 찐후기 | 010-6279-0862</title>
+  <meta name="description" content="상암 코인노래방 가이드 100% 리얼 내돈내산. 상암동 디지털미디어시티(DMC) 인근 최고의 직장인 코인룸, 가라오케 룸싸롱의 가성비 가격 정찰제 및 예약 안내. 예약 010-6279-0862.">
+  <meta name="keywords" content="상암 코인노래방 가이드, 상암 코인노래방, 상암동 노래방, 상암동 셔츠룸, 마포 코인노래방">
+  <link rel="canonical" href="https://t3b05-sa-coin-guide.pages.dev">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="상암 코인노래방 가이드 - 100% 정찰제 내돈내산">
+  <meta property="og:description" content="상암 DMC 직장인 회식 2차 코노 및 룸 가성비 정보. 010-6279-0862">
+  <meta property="og:url" content="https://t3b05-sa-coin-guide.pages.dev">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "상암 코인노래방 가이드 센터",
+    "url": "https://t3b05-sa-coin-guide.pages.dev",
+    "telephone": "010-6279-0862",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "서울시 마포구 상암동",
+      "addressRegion": "서울특별시"
+    }
+  }
+  </script>
   <style>
+    :root {
+      --primary: #000000;
+      --secondary: #000000;
+      --accent: #ffffff;
+      --border: #ffffff;
+      --text: #ffffff;
+      --text-muted: #aaaaaa;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      background-color: #0d0d0f;
-      color: #ebebeb;
-      font-family: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-      line-height: 1.6;
-      padding: 32px;
+      background-color: var(--primary);
+      color: var(--text);
+      font-family: 'Pretendard', sans-serif;
+      line-height: 1.8;
+      border: 8px solid var(--border);
+      min-height: 100vh;
     }
-    .wrapper {
-      max-width: 1000px;
-      margin: 0 auto;
+    .strip-top {
+      background-color: var(--accent);
+      color: var(--primary);
+      text-align: center;
+      padding: 12px;
+      font-weight: 900;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      border-bottom: 4px solid var(--border);
     }
+    .strip-top a { color: var(--primary); text-decoration: none; }
     header {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 60px;
+      border-bottom: 4px solid var(--border);
     }
-    .brand {
-      font-size: 2rem;
+    .logo {
+      font-size: 1.8rem;
       font-weight: 900;
-      color: #ffffff;
+      color: var(--text);
       text-decoration: none;
+      text-transform: uppercase;
       letter-spacing: -0.05em;
     }
-    nav { display: flex; gap: 24px; }
-    nav a {
-      color: #888888;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 700;
-      text-transform: uppercase;
+    .logo span { background-color: var(--accent); color: var(--primary); padding: 0 8px; }
+    nav { display: flex; gap: 20px; }
+    nav a { color: var(--text); text-decoration: none; font-weight: 900; text-transform: uppercase; border-bottom: 2px solid transparent; }
+    nav a:hover { border-bottom: 2px solid var(--accent); }
+    .hero {
+      text-align: center;
+      padding: 85px 20px;
+      border-bottom: 4px solid var(--border);
     }
-    nav a:hover { color: #f43f5e; }
-    main { margin-bottom: 80px; }
-    .label {
-      font-size: 0.75rem;
-      font-family: monospace;
-      color: #f43f5e;
-      font-weight: bold;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-size: 3rem;
+    .hero h1 { font-size: 3.5rem; font-weight: 900; margin-bottom: 20px; text-transform: uppercase; letter-spacing: -0.03em; }
+    .hero h1 span { color: var(--primary); background-color: var(--accent); padding: 0 10px; }
+    .hero p { font-size: 1.3rem; color: var(--text-muted); max-width: 800px; margin: 0 auto 30px; font-weight: 700; }
+    .btn-brutal {
+      display: inline-block;
+      padding: 18px 40px;
+      background-color: var(--accent);
+      color: var(--primary);
       font-weight: 900;
-      line-height: 1.15;
-      letter-spacing: -0.04em;
-      color: #ffffff;
-      margin-bottom: 40px;
-    }
-    .article-body {
-      font-size: 1.15rem;
-      color: #cccccc;
-      font-weight: 400;
-      max-width: 780px;
-    }
-    .article-body p { margin-bottom: 24px; }
-    .juice-link {
-      color: #ffffff;
+      font-size: 1.2rem;
       text-decoration: none;
-      font-weight: 900;
-      box-shadow: inset 0 -6px 0 #f43f5e;
-      transition: all 0.15s ease-in-out;
-    }
-    .juice-link:hover {
-      box-shadow: inset 0 -24px 0 #f43f5e;
-      color: #ffffff;
-    }
-    .archive-section {
-      margin-top: 80px;
-    }
-    .section-title {
-      font-size: 1rem;
-      font-family: monospace;
-      color: #888888;
+      border: 4px solid var(--border);
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 32px;
-    }
-    .archive-list {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .archive-card {
-      text-decoration: none;
-      color: #ffffff;
-      display: block;
-      border: 1px solid #1e293b;
-      padding: 32px;
+      letter-spacing: 0.05em;
       transition: all 0.2s ease;
     }
-    .archive-card:hover {
-      border-color: #f43f5e;
-      background-color: #0f172a;
+    .btn-brutal:hover {
+      background-color: var(--primary);
+      color: var(--text);
     }
-    .archive-card h3 {
-      font-size: 1.4rem;
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+    .section-title {
+      font-size: 2.5rem;
       font-weight: 900;
-      margin-bottom: 12px;
-      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      border-bottom: 4px solid var(--border);
+      padding-bottom: 12px;
+      display: inline-block;
     }
-    .archive-card p {
-      color: #888888;
-      font-size: 0.95rem;
+    .post-content { font-size: 1.1rem; margin-bottom: 60px; font-weight: 600; }
+    .post-content p { margin-bottom: 24px; }
+    .grid-brutal {
+      border: 4px solid var(--border);
+      padding: 30px;
+      margin-bottom: 40px;
     }
+    .grid-brutal h3 { color: var(--text); margin-bottom: 16px; font-size: 1.5rem; font-weight: 900; text-transform: uppercase; }
+    .reviews-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .review-card {
+      border: 4px solid var(--border);
+      padding: 24px;
+    }
+    .review-top { display: flex; justify-content: space-between; margin-bottom: 12px; font-weight: 900; }
+    .review-top .name { color: var(--text); }
+    .review-top .stars { color: var(--accent); }
+    .review-text { color: var(--text-muted); font-size: 0.95rem; font-weight: 500; }
     footer {
-      border-top: 1px solid #1e293b;
-      padding-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.8rem;
-      font-family: monospace;
-      color: #475569;
+      border-top: 4px solid var(--border);
+      padding: 50px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 900;
+      text-transform: uppercase;
     }
-    footer a { color: #475569; text-decoration: none; }
-    footer a:hover { color: #f43f5e; }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 20px; align-items: flex-start; }
-      h1 { font-size: 2.2rem; }
-      .archive-card { padding: 20px; }
-      .archive-card h3 { font-size: 1.2rem; }
-    }
+    footer a { color: var(--accent); text-decoration: none; }
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    <header>
-      <a href="/" class="brand">STREET.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
-    </header>
-    <main>
-      <div class="label">// BRUTALIST GRID SYSTEM</div>
-      <h1>인문 철학 지식 저널 및 아카이브</h1>
-      <div class="article-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인문 철학</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="archive-section">
-        <div class="section-title">// RECENT ARCHIVES</div>
-        <div class="archive-list">
-          
-        <a href="posts/normal-1.html" class="archive-card">
-          <h3>바뤼흐 스피노자의 에티카(Ethica) 속 동물의 코나투스(Conatus)와 비주류 정서론 분석</h3>
-          <p>네덜란드의 고독한 렌즈 가공 철학자 스피노자의 주저 에티카에서 피력된 코나투스(자신의 존재를 유지하려는 영속적 본성 노력) 개념을 동물에게 투영해 볼 때, 인간 중심적 관점에서 해...</p>
-        </a>
-      
-
-        <a href="posts/normal-2.html" class="archive-card">
-          <h3>질 들뢰즈의 리좀(Rhizome) 공간 역학으로 조망한 아날로그 골목길의 인문 구조학</h3>
-          <p>시작과 끝이 규정되지 않고 끊임없이 파편적으로 연결되며 영토를 가로지르는 들뢰즈의 리좀 모델을 격자형 대도시가 아닌 오랜 유기적 골목길의 공간 미학에 적용해 볼 때, 규칙적 구획이...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="archive-card">
-          <h3>중세 스콜라 철학의 영적 통신 논쟁: 천사들의 비물질적 메시지 전달 속도와 주파수</h3>
-          <p>중세 대철학자 토마스 아퀴나스가 주창했던 천사들의 언어(Speech of Angels) 형이상학은 물리적 육체와 공간의 장벽이 없는 순수한 지성적 존재들이 어떻게 공간을 왜곡하고 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="archive-card">
-          <h3>지적 인문 철학 독자들을 위해 준비한 백링크 대행 사이트 통합 안내 리포트</h3>
-          <p>신과 만물의 필연적인 자기 보존 욕구와 중심을 인정하지 않는 무정형의 리좀적 골목길 사색을 거치며 시대의 심연을 정밀하게 성찰해 나가는 깊이 있는 지성인분들이라면, 거칠고 차가운 ...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 STREET.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
+  <div class="strip-top">
+    SA.DMC BRUTAL SYSTEM // DIRECT: <a href="tel:01062790862">010-6279-0862</a>
   </div>
+  <header>
+    <a href="index.html" class="logo">상암<span>SA</span> 코노 가이드</a>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="about.html">로컬 리포트</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>상암 코인노래방 <span>가성비 극대화</span> 정찰제 가이드</h1>
+    <p>상암 DMC 디지털미디어시티 방송국/오피스 타운 인근 눈탱이 없는 진짜 코노 및 룸 가이드 대공개.</p>
+    <a href="tel:01062790862" class="btn-brutal">📞 실시간 대관 & 예약 문의 (010-6279-0862)</a>
+  </section>
+
+  <main>
+    <h2 class="section-title">상수/합정/상암 DMC 밤문화의 솔직한 비교 진실</h2>
+    <div class="post-content">
+      <p>안녕 형들! 오늘은 서울 마포구의 방송국과 IT 빌딩들이 숲을 이루고 있는 상암 DMC(디지털미디어시티) 먹자골목 인근의 진짜 밤문화 꿀팁과 <strong>상암 코인노래방 가이드</strong> 리얼 팩트를 가져왔어. 상암동은 방송사 직원들이랑 오피스 직딩들의 단체 회식이 무지하게 많은 대표적인 접대 특수 상권이잖아.</p>
+
+      <p>문제는 상암동 대로변의 눈부신 오피스 빌딩 지하에 있는 노래방이나 주점들 중에서 사전 공지 없는 요금 장난질로 뜨내기 회사원 동생들 지갑을 노리는 비양심 술집들이 은근히 판을 치고 있다는 사실이야. 기본 술값에 터무니없는 부대 요금을 가산해 뒤통수 치는 양아치 영업을 만나면 진짜 골치 아프지. 나처럼 내 피 같은 돈 단돈 1만 원이라도 안전하게 세이브하며 최고의 만족감을 찾는 형들을 위해 진짜 로컬 리포트를 준비했어.</p>
+
+      <div class="grid-brutal">
+        <h3>📌 상암 DMC 가성비 룸 확보 2대 매뉴얼</h3>
+        <p>첫째, <strong>무조건 다이렉트 사전 예약:</strong> 상암동 일대는 예약 없이 들어가면 무조건 바가지 요금을 청구한다. 출발 전에 010-6279-0862 대표 실장 번호로 미리 전화를 걸어 "상암 코인노래방 가이드 블로그 추천으로 전화했다"고 하고 100% 정직한 정찰제 견적을 체크해라.<br><br>
+        둘째, <strong>음향 및 위생 관리:</strong> 최첨단 방음 기기와 담배 냄새 제로 수준의 쾌적한 룸을 선점하고, 사전에 010-6279-0862 실장에게 에이스 출근 상황을 브리핑받는 것이 핵심 중의 핵심이다.</p>
+      </div>
+
+      <p>이번에 내가 발로 뛰며 검증한 상암 노래연습장은 럭셔리 블랙 앤 화이트 인테리어는 기본이고 매니저들의 마인드와 친절함까지 완벽히 갖추고 있더라고. 진짜 제대로 된 힐링 밤자리를 내돈내산 최고 효율로 완성하고 싶다면 더 지체하지 말고 010-6279-0862 대표 실장에게 전화 걸어서 실시간 예약을 때려봐 형들!</p>
+    </div>
+
+    <h2 class="section-title">리얼 단골들의 생생한 한줄평 후기</h2>
+    <div class="reviews-list">
+      <div class="review-card">
+        <div class="review-top">
+          <span class="name">DMC방송인</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p class="review-text">"상암 코인노래방 가이드 덕분에 예약하고 방문했는데 진짜 밤새 눈탱이 하나 없이 너무 재밌게 잘 놀았습니다. 아가씨들 마인드 대박이네요. 강추!"</p>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <span class="name">상암동야근맨</span>
+          <span class="stars">★★★★★</span>
+        </div>
+        <p class="review-text">"접대 자리라서 아주 꼼꼼히 알아보고 예약했는데 바이어가 정말 조용하고 쾌적한 룸에서 대접받았다며 대만족하고 계약 사인해 줬습니다. 010-6279-0862 실장님 너무 고마웠습니다."</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>상암 코인노래방 가이드 | 예약문의: 010-6279-0862</p>
+    <p>주소: 서울시 마포구 상암동 디지털미디어시티 먹자타운 3층</p>
+    <p>&copy; 2026 상암 코노 가성비 가이드. All rights reserved.</p>
+  </footer>
 </body>
 </html>
