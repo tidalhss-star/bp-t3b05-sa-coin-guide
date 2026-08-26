@@ -16,17 +16,92 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/checklist-002-1afre7a.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://sangam-song-guide.node-link.shop/posts/compare-001-1afre7a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0233.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0234.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0235.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0236.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0237.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0137.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0138.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/guide-002-1prnbxn.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/review-001.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/checklist-002-1afre7a.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sangam-song-guide.node-link.shop/posts/field_note-001-1prnbxn.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sangam-song-guide.node-link.shop/posts/normal-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -67,31 +142,6 @@
   </url>
   <url>
     <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0232.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0233.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0234.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0235.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0236.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260719-0237.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -141,16 +191,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0137.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0138.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0139.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -172,51 +212,6 @@
   </url>
   <url>
     <loc>https://sangam-song-guide.node-link.shop/posts/gemini-coverage-20260722-0143.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/guide-002-1prnbxn.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/juice-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/juice-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/normal-1.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/normal-2.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/normal-3.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts/review-001.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://sangam-song-guide.node-link.shop/posts-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
